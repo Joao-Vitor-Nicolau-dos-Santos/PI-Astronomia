@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(42, 92, 112), rgb(6, 1, 32));
+    position: relative;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(42, 92, 112), rgb(6, 1, 32));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0; 
+}
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 100px;
+    color: antiquewhite;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 1px rgb(0, 204, 255);
+    color: transparent;
+}
+
+.content h3{
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: antiquewhite;
+    font-size: 20px;
+    border: 2px solid antiquewhite;
+    padding: 14px 50px;
+    border-radius: 30px;
+    margin-top: 20px; 
+}
+.content a:hover    {
+    transition: 0.3s;
+    color: rgb(0, 217, 255);
+    font-size: 25px;
+    border: 5px solid rgb(0, 81, 255);
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}

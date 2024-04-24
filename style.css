@@ -1,0 +1,58 @@
+body{
+    background: #000016;
+    padding: 0;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Borda lateral superior esquerda e inferior direita */
+.star{
+    position: relative;
+    display: block;
+    width: 0%;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid #ffe656;
+    border-left: 10px solid transparent;
+    transform: rotate(35deg);
+}
+
+/* Borda superior estrela */
+.star::before{
+    border-bottom: 8px solid #ffe656;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -4.5px;
+    left: -6.5px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+/* Borda lateral superior direita e inferior esquerda */
+.star:after{
+    position: absolute;
+    display: block;
+    top: 0.30px;
+    left: -10.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid #ffe656;
+    border-left: 10px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+/* Texto estrela */
+.content h1{
+    font-size: 15px;
+    color: #ffe656;
+    font-family: 'Courier New', Courier, monospace;
+}
