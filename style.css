@@ -45,7 +45,6 @@ body{
     transform: rotate(-70deg);
     content: '';
 }
-
 .card {
     position: relative;
     height: 300px;
@@ -66,19 +65,19 @@ body{
     width: 100%;
     border: 1px solid red;
     transform: scale(0.8);
-    box-shadow: rgb(255, 187, 99) 0px 30px 70px 0px;
+    box-shadow: rgb(0, 238, 255) 0px 30px 70px 0px;
     transition: all 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .card .main {
     width: 230px;
     height: 300px;
     overflow: hidden;
-    background: rgb(255, 246, 116);
+    background: rgb(0, 238, 255);
     background: linear-gradient(
       0deg,
-      rgb(255, 187, 99) 0%,
-      rgb(255, 246, 116) 60%,
-      rgb(255, 187, 99) 100%
+      rgb(0, 4, 255) 0%,
+      rgb(0, 238, 255) 60%,
+      rgb(0, 4, 255) 100%
 );
 position: relative;
 clip-path: polygon(
@@ -144,7 +143,7 @@ clip-path: polygon(
     transform: translateX(-50%);
     padding: 5px 10px;
     clip-path: polygon(0 0, 100% 0, 81% 100%, 21% 100%);
-
+    background-color: ;
     border: none;
     display: grid;
     place-content: center;
