@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(231, 187, 121), rgb(221, 135, 64));
+    position: relative;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(231, 187, 121), rgb(221, 135, 64));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(194, 177, 155, 0.425);
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 160px;
+    color: antiquewhite;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 2px antiquewhite;
+    color: transparent;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: antiquewhite;
+    font-size: 25px;
+    border: 2px solid antiquewhite;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px; 
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+h3{color: white;}
+
+h2 {color: white;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+}
