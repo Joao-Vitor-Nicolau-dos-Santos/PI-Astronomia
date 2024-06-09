@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: tommy;
+    src: url(Fontes/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: altone;
+    src: url(Fontes/Altone\ Trial-Bold.ttf);
+    font-weight: normal;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+    color: #fff;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0.5px solid rgb(19, 19, 61);
+}
+
+h2 {
+    font-family: tommy;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(19, 19, 61);
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    margin: 0 15%;
+}
+
+a {
+    font-family: Altone;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem {
+    background-color: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem a,
+header.rolagem i {
+    color: #000000;
+}
+
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.banner h1 {
+    font-size: 4em;
+}
+
+.banner h1 span {
+    color: rgb(19, 19, 61);
+}
+
+.video-fundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    padding-top: 35px;
+}
+
+.banner-conteudo {
+    position: relative;
+    z-index: -1;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sobre {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sobre h2 {
+    text-align: left;
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.sobre pre {
+    justify-content: center;
+    color: #ffffff;
+    font-size: x-large;
+    display: inline-block;
+    text-align: left;
+    margin: 10%, 0;
+}
+
+.cu {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cu h2 {
+    text-align: left;
+    color: #ffffff;
+    margin-left: 25%;
+    padding-bottom: 20px;
+}
+
+.cu pre {
+    color: #ffffff;
+    font-size: x-large;
+    margin-left: 11.5em;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 20px;
+}
+
+.galeria h2 {
+    text-align: left;
+    color: #ffffff;
+    width: 100%;
+}
+
+.imagem {
+    flex: 1 1 calc(50% - 16px);
+    box-sizing: border-box;
+}
+
+.imagem img {
+    width: 500px;
+    height: 800;
+    display: block;
+}
+
+.legenda {
+    font-family: tommy;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #000;
+}
+
+.rodape a, p {
+    color: #000000;
+    text-decoration: none;
+}
