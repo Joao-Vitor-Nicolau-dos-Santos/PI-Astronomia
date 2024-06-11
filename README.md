@@ -35,4 +35,12 @@ Nessa tela você ira escolher para qual das rotas deseja ir:
 ☄️Asteroides e Cometas☄️
 
 E assim sua jornada pelo Universo começou.
+
+
+
+
+
+<h2>Obrigado por nos acompanhar até aqui. É agora que nos despedimos.</h2>
+<h3>Atenciosamente;</h3>
+<h4>Claúdio, Felipe, João Vitor e Thiago</h4>
 </span>
